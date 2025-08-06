@@ -4,6 +4,7 @@
   repo: https://github.com/your-username/ray-tracer-rs
   demo:
   featured: true
+  education: "Georgia Institute of Technology"
 
 - name: Insurance Form Triage
   description: Multilingual BERT classifier that reduced manual triage by ~60%.
@@ -11,3 +12,4 @@
   repo: https://github.com/your-username/triage-bert
   demo:
   featured: true
+  education: "Ain Shams University"

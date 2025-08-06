@@ -1,17 +1,18 @@
-- degree: M.S. Computer Science (OMSCS)
-  school: Georgia Institute of Technology
-  start: 2024-08     # YYYY-MM (for sorting)
-  end: 2026-05       # expected
-  location: Remote
+- degree: "M.S. in Computer Science (OMSCS)"
+  school: "Georgia Institute of Technology"
+  start: 2024-08  
+  end: "2026-05"            # expected
+  location: "Atlanta, GA"
+  gpa: "4.0"
   notes:
-    - Specialization:  Machine Learning
-    - Coursework:  Machine Learning, Deep Learning, Machine Learning for Trading, AI for Robotics
+    - "Machine Learning, Deep Learning, Machine Learning for Trading, AI for Robotics"
+    - "Part-time while working; building real-world ML and automation projects."
 
-- degree: B.S. Mechatronics Engineering
-  school: Ain Shams University
-  start: 2015-09
-  end: 2023-02
-  location: Cairo, Egypt
+- degree: "B.S. in Mechatronics & Automation Engineering"
+  school: "Ain Shams University"
+  start: "2018-09"
+  end: "2023-02"
+  location: "Cairo, Egypt"
   notes:
-    - Capstone: (e.g.) Autonomous Sterelizing Robot using UAV and Autonomous driving with object detection
-    - Relevant: Control, Robotics, Computer Vision
+    - "Strong foundation in control, robotics, and computer vision."
+    - "Hands-on projects: UAV indoor navigation, 6-DoF manipulator in ROS, machine-vision arm."

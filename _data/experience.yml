@@ -1,21 +1,47 @@
-- company: FlairsTech
-  role: Data Scientist
-  start: 2023-05
-  end: present
-  location: (e.g.) Cairo · Remote
-  tech: ["Python", "Transformers", "SQL", "Pandas", "Power BI","Mongo DB"]
+- company: "K2 Services"
+  role: "Service Desk Analyst"
+  start: "2025-02"
+  end: "present"
+  location: "Remote (Chicago, IL)"
+  tech: ["ServiceNow", "Windows", "Networking", "SOPs", "Ticketing"]
   bullets:
-    - Built YOLO+SVM pipeline digitizing 50K+ pages/month with ~95% field accuracy
-    - Fine-tuned multilingual BERT to cut manual triage by ~60%
-    - Partnered with stakeholders; delivered dashboards for ops decisions
+    - "Resolve hardware, software, and network issues for enterprise users with a focus on first-call resolution."
+    - "Own ticket triage and escalation workflows; document clear, reproducible fixes."
 
+- company: "FlairsTech"
+  role: "Data Scientist"
+  start: "2023-06"
+  end: "2025-05"
+  location: "Cairo · Remote"
+  tech: ["Python", "Transformers", "BERT", "YOLO", "FastAPI", "AWS ECS", "Lambda", "SQS", "Power BI", "SQL", "Pandas"]
+  bullets:
+    - "Digitized **50K+ pages/month** with a YOLO+SVM pipeline—about **95%** field accuracy and ~70 hours/month saved."
+    - "Fine-tuned a **multilingual BERT** model for insurance form triage; cut manual classification by **~60%**."
+    - "Analyzed ~**2M** patient-survey records to surface service-quality patterns and regional trends."
+    - "Deployed ML microservices with **FastAPI** on **AWS ECS**; used **Lambda + SQS** for async processing and scale."
+    - "Shipped **Power BI** dashboards wired to Jira/SonarQube APIs; reduced weekly prep time by **~30%**."
+    - "Flagged **~15%** atypical call-center chats to help QA prioritize audits."
+    - "Built an AWS-hosted LLM assistant (Mistral) for live call support; sped up issue resolution."
 
-# Add earlier roles, internships, RA/TA, or freelance here:
-# - company: ...
-#   role: ...
-#   start: YYYY-MM
-#   end: YYYY-MM
-#   location: ...
-#   tech: ["..."]
-#   bullets:
-#     - ...
+- company: "Dina Pharmacy"
+  role: "Data Analyst"
+  start: "2022-01"
+  end: "2023-05"
+  location: "Cairo"
+  tech: ["Excel", "Power BI", "SQL"]
+  bullets:
+    - "Built Excel-based inventory alerts that reduced stockouts by **~20%**."
+    - "Unified multi-source sales/inventory data to cut reporting errors and streamline restocking."
+    - "Delivered dashboards to monitor stock health and reorder timing for **300+** products."
+
+- company: "Hi-Rez Studios (Esports)"
+  role: "Player / Analyst"
+  start: "2015-02"
+  end: "2025-01"
+  location: "Atlanta, GA"
+  tech: ["Power BI", "Excel", "Game analytics", "Scouting"]
+  bullets:
+    - "Competed at a professional level for a decade, including **2× World Championship wins**."
+    - "Built scouting and performance dashboards to analyze opponents and visualize win/loss conditions."
+    - "Streamed, scrimmed, and reviewed VODs; collaborated with teammates on strategy and preparation."
+

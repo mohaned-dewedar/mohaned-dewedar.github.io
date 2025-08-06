@@ -2,6 +2,7 @@
 layout: default
 title: Education
 ---
+
 {% include nav.html %}
 
 # Education
@@ -19,5 +20,17 @@ title: Education
     {% endfor %}
   </ul>
   {% endif %}
+
+  {% assign relevant_projects = site.data.projects | where: "education", ed.school %}
+  {% if relevant_projects.size > 0 %}
+  <h4>Relevant Projects</h4>
+  <div class="grid">
+    {% for p in relevant_projects %}
+      {% include project-card.html project=p %}
+    {% endfor %}
+  </div>
+  {% endif %}
+
 </div>
 {% endfor %}
+
