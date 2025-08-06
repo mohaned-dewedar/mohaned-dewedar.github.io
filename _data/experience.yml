@@ -15,12 +15,12 @@
   location: "Cairo · Remote"
   tech: ["Python", "Transformers", "BERT", "YOLO", "FastAPI", "AWS ECS", "Lambda", "SQS", "Power BI", "SQL", "Pandas"]
   bullets:
-    - "Digitized **50K+ pages/month** with a YOLO+SVM pipeline—about **95%** field accuracy and ~70 hours/month saved."
-    - "Fine-tuned a **multilingual BERT** model for insurance form triage; cut manual classification by **~60%**."
-    - "Analyzed ~**2M** patient-survey records to surface service-quality patterns and regional trends."
-    - "Deployed ML microservices with **FastAPI** on **AWS ECS**; used **Lambda + SQS** for async processing and scale."
-    - "Shipped **Power BI** dashboards wired to Jira/SonarQube APIs; reduced weekly prep time by **~30%**."
-    - "Flagged **~15%** atypical call-center chats to help QA prioritize audits."
+    - "Digitized 50K+ pages/month with a YOLO+SVM pipeline—about 95% field accuracy and ~70 hours/month saved."
+    - "Fine-tuned a multilingual BERT model for insurance form triage; cut manual classification by ~60%."
+    - "Analyzed ~2M patient-survey records to surface service-quality patterns and regional trends."
+    - "Deployed ML microservices with FastAPI on AWS ECS; used Lambda + SQS for async processing and scale."
+    - "Shipped Power BI dashboards wired to Jira/SonarQube APIs; reduced weekly prep time by ~30%."
+    - "Flagged ~15% atypical call-center chats to help QA prioritize audits."
     - "Built an AWS-hosted LLM assistant (Mistral) for live call support; sped up issue resolution."
 
 - company: "Dina Pharmacy"
@@ -30,9 +30,9 @@
   location: "Cairo"
   tech: ["Excel", "Power BI", "SQL"]
   bullets:
-    - "Built Excel-based inventory alerts that reduced stockouts by **~20%**."
+    - "Built Excel-based inventory alerts that reduced stockouts by ~20%."
     - "Unified multi-source sales/inventory data to cut reporting errors and streamline restocking."
-    - "Delivered dashboards to monitor stock health and reorder timing for **300+** products."
+    - "Delivered dashboards to monitor stock health and reorder timing for 300+ products."
 
 - company: "Hi-Rez Studios (Esports)"
   role: "Player / Analyst"
@@ -41,7 +41,7 @@
   location: "Atlanta, GA"
   tech: ["Power BI", "Excel", "Game analytics", "Scouting"]
   bullets:
-    - "Competed at a professional level for a decade, including **2× World Championship wins**."
+    - "Competed at a professional level for a decade, including 2× World Championship wins."
     - "Built scouting and performance dashboards to analyze opponents and visualize win/loss conditions."
     - "Streamed, scrimmed, and reviewed VODs; collaborated with teammates on strategy and preparation."
 

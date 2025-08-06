@@ -1,19 +1,6 @@
-- name: Ray Tracer in Rust
-  description: CPU ray tracer with BVH and PBR materials.
-  tech: ["Rust", "Ray Tracing", "BVH"]
-  repo: https://github.com/your-username/ray-tracer-rs
-  demo:
-  featured: true
-  education: "Georgia Institute of Technology"
-  show_in_edu: true
 
-- name: Insurance Form Triage
-  description: Multilingual BERT classifier that reduced manual triage by ~60%.
-  tech: ["Python", "Transformers", "BERT"]
-  repo: https://github.com/your-username/triage-bert
-  demo:
-  featured: true
-  education: "Ain Shams University"
+## Ain Shams Unversity Projects
+
 - name: School Exam System (Java GUI)
   description: Developed a live exam platform in Java with a GUI, supporting multiple question formats and automatic correction.
   tech: ["Java", "OOP", "Swing"]
@@ -92,4 +79,175 @@
   repo:
   demo:
   featured: false
+  show_in_edu: true
+
+### OMSCS Projects
+
+
+- name: Martingale Strategy
+  description: Simulate American roulette to study statistical outcomes and test the martingale betting strategy.
+  tech: ["Python", "Simulation", "Matplotlib"]
+  education: "Georgia Institute of Technology"
+  course: "ML4T"
+  featured: false
+  show_in_edu: false
+
+- name: Portfolio Optimization
+  description: Built a portfolio optimizer using scipy.optimize and historical financial data. Modeled constraints and risk-return tradeoffs.
+  tech: ["Python", "Pandas", "Scipy", "Finance"]
+  education: "Georgia Institute of Technology"
+  course: "ML4T"
+  featured: false
+  show_in_edu: false
+
+- name: Assess Learners
+  description: Implemented and compared decision trees, bagged learners, and ensemble methods to analyze learning behavior and overfitting.
+  tech: ["Python", "Ensemble Methods", "Bagging", "Random Forest"]
+  education: "Georgia Institute of Technology"
+  course: "ML4T"
+  featured: false
+  show_in_edu: false
+
+- name: Defeat Learners
+  description: Designed datasets that expose the weaknesses of various machine learning algorithms by favoring specific learners.
+  tech: ["Python", "ML", "Data Generation"]
+  education: "Georgia Institute of Technology"
+  course: "ML4T"
+  featured: false
+  show_in_edu: false
+
+- name: Market Simulator
+  description: Created a custom simulator that processes trade orders and computes portfolio performance over time.
+  tech: ["Python", "Pandas", "Backtesting"]
+  education: "Georgia Institute of Technology"
+  course: "ML4T"
+  featured: false
+  show_in_edu: false
+
+- name: Indicator Evaluation
+  description: Evaluated technical indicators and used a 'theoretically optimal strategy' to simulate trading performance using future data.
+  tech: ["Python", "Trading", "Indicators", "SMA", "BBP"]
+  education: "Georgia Institute of Technology"
+  course: "ML4T"
+  featured: false
+  show_in_edu: false
+
+- name: Q-Learning Robot
+  description: Implemented Q-learning to train a robot to navigate a dynamic environment with exploration/exploitation balance.
+  tech: ["Python", "Reinforcement Learning", "Q-Learning"]
+  education: "Georgia Institute of Technology"
+  course: "ML4T"
+  featured: false
+  show_in_edu: false
+
+- name: Strategy Evaluation
+  description: Compared rule-based vs random forest strategies for trading using technical indicators.
+  tech: ["Python", "Trading", "Random Forest", "Indicators"]
+  education: "Georgia Institute of Technology"
+  course: "ML4T"
+  featured: true
+  show_in_edu: true
+
+- name: Hopscotch – Kalman Filters
+  description: Used Kalman Filters to navigate a damaged spaceship by estimating asteroid positions from noisy data.
+  tech: ["Python", "Kalman Filter", "Estimation"]
+  education: "Georgia Institute of Technology"
+  course: "AI4R"
+  featured: false
+  show_in_edu: false
+
+- name: Solar System – Particle Filters
+  description: Used particle filters to localize a spacecraft using planetary gravitational readings in a simulated solar system.
+  tech: ["Python", "Particle Filters", "Localization"]
+  education: "Georgia Institute of Technology"
+  course: "AI4R"
+  featured: false
+  show_in_edu: false
+
+- name: Drone Control – PID Controller
+  description: Implemented a PID controller to stabilize a drone in 3D space for infrastructure inspection tasks.
+  tech: ["Python", "PID", "Control Systems"]
+  education: "Georgia Institute of Technology"
+  course: "AI4R"
+  featured: false
+  show_in_edu: false
+
+- name: Warehouse – A* Search
+  description: Developed a warehouse robot routing algorithm using A* search to optimize item pickup and delivery.
+  tech: ["Python", "A*", "Pathfinding"]
+  education: "Georgia Institute of Technology"
+  course: "AI4R"
+  featured: false
+  show_in_edu: true
+
+- name: Indiana Drones – SLAM
+  description: Built SLAM system to navigate a drone through a jungle using noisy sensor data.
+  tech: ["Python", "SLAM", "Mapping", "Robotics"]
+  education: "Georgia Institute of Technology"
+  course: "AI4R"
+  featured: false
+  show_in_edu: true
+
+- name: Supervised Learning – Imbalanced Dataset
+  description: Trained SVM, KNN, and Random Forest on imbalanced data, focusing on feature selection and metric interpretation.
+  tech: ["Python", "Scikit-learn", "SVM", "KNN", "Random Forest"]
+  education: "Georgia Institute of Technology"
+  course: "Machine Learning"
+  featured: false
+  show_in_edu: false
+
+- name: Randomized Optimization Algorithms
+  description: Applied RHC, SA, GA, and MIMIC to solve discrete optimization problems and tune neural network weights.
+  tech: ["Python", "Optimization", "RHC", "SA", "GA", "MIMIC"]
+  education: "Georgia Institute of Technology"
+  course: "Machine Learning"
+  featured: false
+  show_in_edu: false
+
+- name: Unsupervised Learning & Dimensionality Reduction
+  description: Used PCA, ICA, ISOMAP, and clustering to reduce dimensions and enhance neural network performance.
+  tech: ["Python", "PCA", "ICA", "ISOMAP", "KMeans"]
+  education: "Georgia Institute of Technology"
+  course: "Machine Learning"
+  featured: false
+  show_in_edu: false
+
+- name: Reinforcement Learning on MDPs
+  description: Implemented Value Iteration, Policy Iteration, and Q-Learning to solve Blackjack and Frozen Lake environments.
+  tech: ["Python", "RL", "MDP", "Q-Learning"]
+  education: "Georgia Institute of Technology"
+  course: "Machine Learning"
+  featured: false
+  show_in_edu: true
+
+- name: Neural Network from Scratch
+  description: Built a complete neural network from scratch in NumPy and trained it on MNIST.
+  tech: ["NumPy", "Neural Networks", "SGD"]
+  education: "Georgia Institute of Technology"
+  course: "Deep Learning"
+  featured: false
+  show_in_edu: false
+
+- name: CNNs from Scratch & in PyTorch
+  description: Built CNN layers manually using NumPy, then migrated to PyTorch for classification tasks using custom loss functions.
+  tech: ["NumPy", "PyTorch", "CNN", "Deep Learning"]
+  education: "Georgia Institute of Technology"
+  course: "Deep Learning"
+  featured: false
+  show_in_edu: false
+
+- name: Transformers for Sequence Modeling
+  description: Implemented Transformer and Seq2Seq models for language translation using attention mechanisms.
+  tech: ["PyTorch", "Transformers", "Seq2Seq", "NLP"]
+  education: "Georgia Institute of Technology"
+  course: "Deep Learning"
+  featured: false
+  show_in_edu: false
+
+- name: Audio Classification on Edge Devices
+  description: Compared CNNs and Transformers for classifying audio signals on edge devices using knowledge distillation.
+  tech: ["CNN", "Transformers", "Edge AI", "Audio", "CLAP", "YAMNet"]
+  education: "Georgia Institute of Technology"
+  course: "Deep Learning"
+  featured: true
   show_in_edu: true
