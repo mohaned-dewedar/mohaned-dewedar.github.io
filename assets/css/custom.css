@@ -1,0 +1,7 @@
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.card { border: 1px solid #e0e0e0; padding: 1rem; border-radius: 12px; }
+.tag { font-size: 0.85rem; padding: 0.15rem 0.5rem; border: 1px solid #ccc; border-radius: 999px; margin-right: 0.35rem; }
+@media (prefers-color-scheme: dark) {
+  .card { border-color: #444; }
+  .tag { border-color: #666; }
+}

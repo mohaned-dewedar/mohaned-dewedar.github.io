@@ -1,0 +1,13 @@
+- name: Ray Tracer in Rust
+  description: CPU ray tracer with BVH and PBR materials.
+  tech: ["Rust", "Ray Tracing", "BVH"]
+  repo: https://github.com/your-username/ray-tracer-rs
+  demo:
+  featured: true
+
+- name: Insurance Form Triage
+  description: Multilingual BERT classifier that reduced manual triage by ~60%.
+  tech: ["Python", "Transformers", "BERT"]
+  repo: https://github.com/your-username/triage-bert
+  demo:
+  featured: true

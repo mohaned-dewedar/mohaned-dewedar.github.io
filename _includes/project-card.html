@@ -1,0 +1,11 @@
+<div class="card">
+  <h3>{{ include.project.name }}</h3>
+  <p>{{ include.project.description }}</p>
+  <p class="tags">
+    {% for t in include.project.tech %}<span class="tag">{{ t }}</span>{% endfor %}
+  </p>
+  <p>
+    {% if include.project.repo %}<a href="{{ include.project.repo }}">Code</a>{% endif %}
+    {% if include.project.demo %}{% if include.project.repo %} · {% endif %}<a href="{{ include.project.demo }}">Demo</a>{% endif %}
+  </p>
+</div>
