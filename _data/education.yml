@@ -1,0 +1,17 @@
+- degree: M.S. Computer Science (OMSCS)
+  school: Georgia Institute of Technology
+  start: 2024-08     # YYYY-MM (for sorting)
+  end: 2026-05       # expected
+  location: Remote
+  notes:
+    - Specialization:  Machine Learning
+    - Coursework:  Machine Learning, Deep Learning, Machine Learning for Trading, AI for Robotics
+
+- degree: B.S. Mechatronics Engineering
+  school: Ain Shams University
+  start: 2015-09
+  end: 2023-02
+  location: Cairo, Egypt
+  notes:
+    - Capstone: (e.g.) Autonomous Sterelizing Robot using UAV and Autonomous driving with object detection
+    - Relevant: Control, Robotics, Computer Vision

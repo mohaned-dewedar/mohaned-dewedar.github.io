@@ -1,0 +1,7 @@
+# Ignore Ruby and Jekyll local stuff
+/_site/
+/.sass-cache/
+/.jekyll-cache/
+/.bundle/
+/vendor/
+/.gem

@@ -1,5 +1,5 @@
 title: Your Name
-description: OMSCS @ Georgia Tech · Interests: AI, ML, Data Science, Software Engineering
+description: "OMSCS @ Georgia Tech · Interests: AI, ML, Data Science, Software Engineering"
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme

@@ -1,0 +1,21 @@
+- company: FlairsTech
+  role: Data Scientist
+  start: 2023-05
+  end: present
+  location: (e.g.) Cairo · Remote
+  tech: ["Python", "Transformers", "SQL", "Pandas", "Power BI","Mongo DB"]
+  bullets:
+    - Built YOLO+SVM pipeline digitizing 50K+ pages/month with ~95% field accuracy
+    - Fine-tuned multilingual BERT to cut manual triage by ~60%
+    - Partnered with stakeholders; delivered dashboards for ops decisions
+
+
+# Add earlier roles, internships, RA/TA, or freelance here:
+# - company: ...
+#   role: ...
+#   start: YYYY-MM
+#   end: YYYY-MM
+#   location: ...
+#   tech: ["..."]
+#   bullets:
+#     - ...
