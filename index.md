@@ -34,3 +34,6 @@ I build machine learning systems with real-world impact — and when I’m not s
     {% include project-card.html project=p %}
   {% endfor %}
 </div>
+
+## Portfolio not Final
+*This portfolio is a work in progress. More projects , demos and details will be added soon!*

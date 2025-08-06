@@ -5,7 +5,9 @@
   description: Developed a live exam platform in Java with a GUI, supporting multiple question formats and automatic correction.
   tech: ["Java", "OOP", "Swing"]
   education: "Ain Shams University"
-  course: "Software Development Project"
+  course: "Advanced Programming"
+  category: "Software"
+  priority: 3
   repo:
   demo:
   featured: false
@@ -15,6 +17,8 @@
   description: Graduation project aimed at automating the process of handwoven kilns through custom-built machinery and software.
   tech: ["Mechanical Design", "Embedded Systems", "Automation"]
   education: "Ain Shams University"
+  category: "Engineering"
+  priority: 3
   course: "Graduation Project"
   repo:
   demo:
@@ -26,6 +30,8 @@
   tech: ["Machine Vision", "Robotics", "Motion Planning"]
   education: "Ain Shams University"
   course: "Graduation Project"
+  category: "Robotics"
+  priority: 1
   repo:
   demo:
   featured: true
@@ -36,6 +42,8 @@
   tech: ["UAV", "Sensors", "Machine Vision"]
   education: "Ain Shams University"
   course: "Mechatronics Project"
+  category: "Engineering"
+  priority: 1
   repo:
   demo:
   featured: false
@@ -46,6 +54,8 @@
   tech: ["ROS", "Gazebo", "MoveIt", "URDF"]
   education: "Ain Shams University"
   course: "Robotics Project"
+  category: "Robotics"
+  priority: 3
   repo:
   demo:
   featured: false
@@ -56,6 +66,8 @@
   tech: ["Computer Vision", "CNN", "KNN", "SVM"]
   education: "Ain Shams University"
   course: "Computer Vision Project"
+  category: "Software"
+  priority: 2
   repo:
   demo:
   featured: false
@@ -66,6 +78,8 @@
   tech: ["Automation", "Mechatronics", "Sensors", "Stepper Motors"]
   education: "Ain Shams University"
   course: "Design of Mechatronic Systems"
+  category: "Engineering"
+  priority: 2
   repo:
   demo:
   featured: true
@@ -76,6 +90,8 @@
   tech: ["Embedded Systems", "Ultrasonic Sensors", "Assistive Tech"]
   education: "Ain Shams University"
   course: "Embedded Systems Project"
+  category: "Engineering"
+  priority: 2
   repo:
   demo:
   featured: false
@@ -89,6 +105,8 @@
   tech: ["Python", "Simulation", "Matplotlib"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
+  category: "Software"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -97,6 +115,8 @@
   tech: ["Python", "Pandas", "Scipy", "Finance"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
+  category: "Software"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -105,6 +125,8 @@
   tech: ["Python", "Ensemble Methods", "Bagging", "Random Forest"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
+  category: "Software"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -113,6 +135,8 @@
   tech: ["Python", "ML", "Data Generation"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
+  category: "Software"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -121,6 +145,8 @@
   tech: ["Python", "Pandas", "Backtesting"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
+  category: "Software"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -129,6 +155,8 @@
   tech: ["Python", "Trading", "Indicators", "SMA", "BBP"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
+  category: "Software"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -137,6 +165,8 @@
   tech: ["Python", "Reinforcement Learning", "Q-Learning"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
+  category: "Software"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -145,6 +175,8 @@
   tech: ["Python", "Trading", "Random Forest", "Indicators"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
+  category: "Software"
+  priority: 1
   featured: true
   show_in_edu: true
 
@@ -153,6 +185,8 @@
   tech: ["Python", "Kalman Filter", "Estimation"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
+  category: "Robotics"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -161,6 +195,8 @@
   tech: ["Python", "Particle Filters", "Localization"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
+  category: "Robotics"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -169,6 +205,8 @@
   tech: ["Python", "PID", "Control Systems"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
+  category: "Robotics"
+  priority: 3
   featured: false
   show_in_edu: false
 
@@ -177,6 +215,8 @@
   tech: ["Python", "A*", "Pathfinding"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
+  category: "Robotics"
+  priority: 2
   featured: false
   show_in_edu: true
 
@@ -185,13 +225,17 @@
   tech: ["Python", "SLAM", "Mapping", "Robotics"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
+  category: "Robotics"
+  priority: 2
   featured: false
   show_in_edu: true
 
 - name: Supervised Learning – Imbalanced Dataset
-  description: Trained SVM, KNN, and Random Forest on imbalanced data, focusing on feature selection and metric interpretation.
+  description: Trained SVM, KNN, and Random Forest on imbalanced data, focusing on analysis of the models and tradeoffs.
   tech: ["Python", "Scikit-learn", "SVM", "KNN", "Random Forest"]
   education: "Georgia Institute of Technology"
+  category: "Software"
+  priority: 3
   course: "Machine Learning"
   featured: false
   show_in_edu: false
@@ -199,6 +243,8 @@
 - name: Randomized Optimization Algorithms
   description: Applied RHC, SA, GA, and MIMIC to solve discrete optimization problems and tune neural network weights.
   tech: ["Python", "Optimization", "RHC", "SA", "GA", "MIMIC"]
+  category: "Software"
+  priority: 2
   education: "Georgia Institute of Technology"
   course: "Machine Learning"
   featured: false
@@ -209,14 +255,18 @@
   tech: ["Python", "PCA", "ICA", "ISOMAP", "KMeans"]
   education: "Georgia Institute of Technology"
   course: "Machine Learning"
+  category: "Software"
+  priority: 3
   featured: false
   show_in_edu: false
 
 - name: Reinforcement Learning on MDPs
-  description: Implemented Value Iteration, Policy Iteration, and Q-Learning to solve Blackjack and Frozen Lake environments.
+  description: Implemented Value Iteration, Policy Iteration, and Q-Learning to solve Blackjack and Cartpole balancing.
   tech: ["Python", "RL", "MDP", "Q-Learning"]
   education: "Georgia Institute of Technology"
   course: "Machine Learning"
+  category: "Software"
+  priority: 1
   featured: false
   show_in_edu: true
 
@@ -225,6 +275,8 @@
   tech: ["NumPy", "Neural Networks", "SGD"]
   education: "Georgia Institute of Technology"
   course: "Deep Learning"
+  category: "Software"
+  priority: 2
   featured: false
   show_in_edu: false
 
@@ -233,6 +285,8 @@
   tech: ["NumPy", "PyTorch", "CNN", "Deep Learning"]
   education: "Georgia Institute of Technology"
   course: "Deep Learning"
+  category: "Software"
+  priority: 1
   featured: false
   show_in_edu: false
 
@@ -241,6 +295,8 @@
   tech: ["PyTorch", "Transformers", "Seq2Seq", "NLP"]
   education: "Georgia Institute of Technology"
   course: "Deep Learning"
+  category: "Software"
+  priority: 1
   featured: false
   show_in_edu: false
 
@@ -249,5 +305,7 @@
   tech: ["CNN", "Transformers", "Edge AI", "Audio", "CLAP", "YAMNet"]
   education: "Georgia Institute of Technology"
   course: "Deep Learning"
+  category: "Software"
+  priority: 1
   featured: true
   show_in_edu: true
