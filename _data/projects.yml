@@ -5,6 +5,7 @@
   demo:
   featured: true
   education: "Georgia Institute of Technology"
+  show_in_edu: true
 
 - name: Insurance Form Triage
   description: Multilingual BERT classifier that reduced manual triage by ~60%.
@@ -13,3 +14,82 @@
   demo:
   featured: true
   education: "Ain Shams University"
+- name: School Exam System (Java GUI)
+  description: Developed a live exam platform in Java with a GUI, supporting multiple question formats and automatic correction.
+  tech: ["Java", "OOP", "Swing"]
+  education: "Ain Shams University"
+  course: "Software Development Project"
+  repo:
+  demo:
+  featured: false
+  show_in_edu: true
+
+- name: Mechanization of Handmade Kiln Looms
+  description: Graduation project aimed at automating the process of handwoven kilns through custom-built machinery and software.
+  tech: ["Mechanical Design", "Embedded Systems", "Automation"]
+  education: "Ain Shams University"
+  course: "Graduation Project"
+  repo:
+  demo:
+  featured: true
+  show_in_edu: false
+
+- name: Machine Vision Controlled Robot Arm
+  description: Developed a 6DoF robotic arm controlled via machine vision and motion planning; assembled using 3D-printed parts.
+  tech: ["Machine Vision", "Robotics", "Motion Planning"]
+  education: "Ain Shams University"
+  course: "Graduation Project"
+  repo:
+  demo:
+  featured: true
+  show_in_edu: true
+
+- name: Delivery UAV Robot
+  description: Led development of a UAV robot capable of identifying indoor environments using UV light, sensors, and machine vision.
+  tech: ["UAV", "Sensors", "Machine Vision"]
+  education: "Ain Shams University"
+  course: "Mechatronics Project"
+  repo:
+  demo:
+  featured: false
+  show_in_edu: true
+
+- name: 6DoF Manipulator Modeling and Control
+  description: Modeled a 6DoF robotic manipulator in Gazebo using URDF; used MoveIt and ROS for trajectory planning and control.
+  tech: ["ROS", "Gazebo", "MoveIt", "URDF"]
+  education: "Ain Shams University"
+  course: "Robotics Project"
+  repo:
+  demo:
+  featured: false
+  show_in_edu: true
+
+- name: Machine Vision Classifier (COCO Dataset)
+  description: Built an image classifier using CNN, KNN, and SVM on the COCO dataset; compared algorithms for effectiveness.
+  tech: ["Computer Vision", "CNN", "KNN", "SVM"]
+  education: "Ain Shams University"
+  course: "Computer Vision Project"
+  repo:
+  demo:
+  featured: false
+  show_in_edu: false
+
+- name: Production Line Integration
+  description: Designed and implemented a production line using conveyors, sensors, and motors for automatic assembly/disassembly.
+  tech: ["Automation", "Mechatronics", "Sensors", "Stepper Motors"]
+  education: "Ain Shams University"
+  course: "Design of Mechatronic Systems"
+  repo:
+  demo:
+  featured: true
+  show_in_edu: true
+
+- name: Automatic Sensing Wheelchair
+  description: Built a smart wheelchair that detects obstacles and uses vibration feedback on handles to alert the user.
+  tech: ["Embedded Systems", "Ultrasonic Sensors", "Assistive Tech"]
+  education: "Ain Shams University"
+  course: "Embedded Systems Project"
+  repo:
+  demo:
+  featured: false
+  show_in_edu: true

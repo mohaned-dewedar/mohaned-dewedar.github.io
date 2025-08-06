@@ -21,15 +21,28 @@ title: Education
   </ul>
   {% endif %}
 
-  {% assign relevant_projects = site.data.projects | where: "education", ed.school %}
-  {% if relevant_projects.size > 0 %}
+  {% assign visible_projects = site.data.projects | where: "education", ed.school | where: "show_in_edu", true %}
+  {% assign hidden_projects = site.data.projects | where: "education", ed.school | where: "show_in_edu", false %}
+
+ {% if visible_projects.size > 0 %}
   <h4>Relevant Projects</h4>
   <div class="grid">
-    {% for p in relevant_projects %}
+    {% for p in visible_projects %}
       {% include project-card.html project=p %}
     {% endfor %}
   </div>
-  {% endif %}
+{% endif %}
+{% if hidden_projects.size > 0 %}
+  <details>
+    <summary style="cursor: pointer; margin-top: 1em;"><strong>Show all projects from this degree</strong></summary>
+    <div class="grid" style="margin-top: 1em;">
+      {% for p in hidden_projects %}
+        {% include project-card.html project=p %}
+      {% endfor %}
+    </div>
+  </details>
+{% endif %}
+
 
 </div>
 {% endfor %}
