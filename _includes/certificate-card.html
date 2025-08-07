@@ -1,0 +1,7 @@
+<div class="card">
+  <h3>{{ include.cert.name }}</h3>
+  <p><strong>{{ include.cert.issuer }}</strong></p>
+  {% if include.cert.link %}
+    <p><a href="{{ include.cert.link }}" target="_blank">View Certificate</a></p>
+  {% endif %}
+</div>
