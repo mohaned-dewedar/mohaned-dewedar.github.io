@@ -5,7 +5,7 @@
 
 - name: CherryBott — Twitch x LLM Smite Bot
   description: CherryBott is a Twitch chatbot powered by local LLMs that answers chat messages and allows easy trivia Q/A. Designed for Smite2-specific Q&A and Twitch gaming interaction. 🚧 This is a work-in-progress (WIP).
-  tech: ["Python", "LLM", "Twitch API", "Ollama", "AsyncIO"]
+  tech: ["Python", "LLM", "Twitch API", "Ollama", "Websockets","OOP"]
   repo: https://github.com/mohaned-dewedar/my-twitch-bot
   demo:
   education: None
@@ -14,6 +14,7 @@
   featured: true
   show_in_edu: false
   priority: 1
+  image: /assets/img/cherrybott.png
 
 
 - name: Sift Cropper — Semi-Automated Image Annotation Tool
@@ -27,6 +28,7 @@
   featured: true
   show_in_edu: false
   priority: 1
+  image: /assets/img/sift.png
 
 
 - name: Personal Website
@@ -40,6 +42,7 @@
   priority: 2
   featured: true
   show_in_edu: false
+  image: /assets/img/portfolio.png
 
 
 
@@ -57,9 +60,10 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/martingale.png
 
 - name: Portfolio Optimization
-  description: Built a portfolio optimizer using scipy.optimize and historical financial data. Modeled constraints and risk-return tradeoffs.
+  description: Built a portfolio optimizer using historical financial data. Modeled constraints and risk-return tradeoffs.
   tech: ["Python", "Pandas", "Scipy", "Finance"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
@@ -67,6 +71,7 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/scipy.jpg
 
 - name: Assess Learners
   description: Implemented and compared decision trees, bagged learners, and ensemble methods to analyze learning behavior and overfitting.
@@ -77,6 +82,7 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/bagvsboost.png
 
 - name: Defeat Learners
   description: Designed datasets that expose the weaknesses of various machine learning algorithms by favoring specific learners.
@@ -87,6 +93,7 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/beat_ur_model.png
 
 - name: Market Simulator
   description: Created a custom simulator that processes trade orders and computes portfolio performance over time.
@@ -97,6 +104,8 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/market.jpg
+
 
 - name: Indicator Evaluation
   description: Evaluated technical indicators and used a 'theoretically optimal strategy' to simulate trading performance using future data.
@@ -107,6 +116,7 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/indicator_sma.png
 
 - name: Q-Learning Robot
   description: Implemented Q-learning to train a robot to navigate a dynamic environment with exploration/exploitation balance.
@@ -117,6 +127,7 @@
   priority: 2
   featured: false
   show_in_edu: false
+  image: /assets/img/qlearning_tradong.png
 
 - name: Strategy Evaluation
   description: Compared rule-based vs random forest strategies for trading using technical indicators.
@@ -127,6 +138,7 @@
   priority: 1
   featured: true
   show_in_edu: true
+  image: /assets/img/strategy.png
 
 - name: Hopscotch – Kalman Filters
   description: Used Kalman Filters to navigate a damaged spaceship by estimating asteroid positions from noisy data.
@@ -137,6 +149,7 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/Kalman-Filter.png
 
 - name: Solar System – Particle Filters
   description: Used particle filters to localize a spacecraft using planetary gravitational readings in a simulated solar system.
@@ -147,6 +160,7 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/particle_filter.png
 
 - name: Drone Control – PID Controller
   description: Implemented a PID controller to stabilize a drone in 3D space for infrastructure inspection tasks.
@@ -157,6 +171,7 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/pid_drone.png
 
 - name: Warehouse – A* Search
   description: Developed a warehouse robot routing algorithm using A* search to optimize item pickup and delivery.
@@ -167,6 +182,7 @@
   priority: 2
   featured: false
   show_in_edu: true
+  image: /assets/img/warehouse_bot.png
 
 - name: Indiana Drones – SLAM
   description: Built SLAM system to navigate a drone through a jungle using noisy sensor data.
@@ -177,6 +193,7 @@
   priority: 2
   featured: false
   show_in_edu: true
+  image: /assets/img/SLAM.png
 
 - name: Supervised Learning – Imbalanced Dataset
   description: Trained SVM, KNN, and Random Forest on imbalanced data, focusing on analysis of the models and tradeoffs.
@@ -187,6 +204,7 @@
   course: "Machine Learning"
   featured: false
   show_in_edu: false
+  image: /assets/img/ml.png
 
 - name: Randomized Optimization Algorithms
   description: Applied RHC, SA, GA, and MIMIC to solve discrete optimization problems and tune neural network weights.
@@ -197,6 +215,7 @@
   course: "Machine Learning"
   featured: false
   show_in_edu: false
+  image: /assets/img/rhc.png
 
 - name: Unsupervised Learning & Dimensionality Reduction
   description: Used PCA, ICA, ISOMAP, and clustering to reduce dimensions and enhance neural network performance.
@@ -207,6 +226,8 @@
   priority: 3
   featured: false
   show_in_edu: false
+  image: /assets/img/clustering.png
+
 
 - name: Reinforcement Learning on MDPs
   description: Implemented Value Iteration, Policy Iteration, and Q-Learning to solve Blackjack and Cartpole balancing.
@@ -217,6 +238,7 @@
   priority: 1
   featured: false
   show_in_edu: true
+  image: /assets/img/rl_blackjack.png
 
 - name: Neural Network from Scratch
   description: Built a complete neural network from scratch in NumPy and trained it on MNIST.
@@ -227,6 +249,7 @@
   priority: 2
   featured: false
   show_in_edu: false
+  image: /assets/img/nn_scratch.png
 
 - name: CNNs from Scratch & in PyTorch
   description: Built CNN layers manually using NumPy, then migrated to PyTorch for classification tasks using custom loss functions.
@@ -237,6 +260,7 @@
   priority: 1
   featured: false
   show_in_edu: true
+  image: /assets/img/cnn.png
 
 - name: Transformers for Sequence Modeling
   description: Implemented Transformer and Seq2Seq models for language translation using attention mechanisms.
@@ -247,6 +271,8 @@
   priority: 1
   featured: true
   show_in_edu: true
+  image: /assets/img/transformers.png
+
 
 - name: Audio Classification on Edge Devices
   description: Compared CNNs and Transformers for classifying audio signals on edge devices using knowledge distillation.
@@ -257,6 +283,7 @@
   priority: 1
   featured: true
   show_in_edu: true
+  image: /assets/img/classify_audios.png
 
 
 
@@ -273,6 +300,7 @@
   demo:
   featured: false
   show_in_edu: true
+  image: /assets/img/java_gui.png
 
 - name: Mechanization of Handmade Kiln Looms
   description: Graduation project aimed at automating the process of handwoven kilns through custom-built machinery and software.
@@ -285,6 +313,8 @@
   demo:
   featured: true
   show_in_edu: false
+  image: /assets/img/loom_machine.png
+
 
 - name: Machine Vision Controlled Robot Arm
   description: Developed a 6DoF robotic arm controlled via machine vision and motion planning; assembled using 3D-printed parts.
@@ -297,6 +327,7 @@
   demo:
   featured: true
   show_in_edu: true
+  image: /assets/img/mimic_robot.png
 
 - name: Delivery UAV Robot
   description: Led development of a UAV robot capable of identifying indoor environments using UV light, sensors, and machine vision. Navigates environments autonomously by line tracking and object juking and complete human avoidance.
@@ -309,6 +340,7 @@
   demo:
   featured: true
   show_in_edu: true
+  image: /assets/img/uav.png
 
 - name: 6DoF Manipulator Modeling and Control
   description: Modeled a 6DoF robotic manipulator in Gazebo using URDF; used MoveIt and ROS for trajectory planning and control.
@@ -321,6 +353,7 @@
   demo:
   featured: true
   show_in_edu: true
+  image: /assets/img/ros.png
 
 - name: Machine Vision Classifier (COCO Dataset)
   description: Built an image classifier using CNN, KNN, and SVM on the COCO dataset; compared algorithms for effectiveness.
@@ -345,6 +378,7 @@
   demo:
   featured: true
   show_in_edu: true
+  image: /assets/img/production_Line.png
 
 - name: Automatic Sensing Wheelchair
   description: Built a smart wheelchair that detects obstacles and uses vibration feedback on handles to alert the user.
@@ -357,3 +391,4 @@
   demo:
   featured: true
   show_in_edu: true
+  image: /assets/img/wheelchair.png
