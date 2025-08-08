@@ -4,8 +4,13 @@ title: Home
 ---
 {% include nav.html %}
 
+<div style="text-align: center; margin: 2rem 0;">
+  <img src='assets/img/cringe_pic.png' alt="Moe Dewedar" width="200" style="border-radius: 50%; box-shadow: 0 0 8px rgba(0,0,0,0.1);" />
+</div>
+
+
 # Moe Dewedar
-**AI Engineer · OMSCS Student · Pro Gamer**
+**AI Engineer · Masters Student**
 
 I build machine learning systems with real-world impact — and when I’m not shipping models, I’m gaming competetively and streaming.  
 [GitHub](https://github.com/mohaned-dewedar) · [LinkedIn](https://linkedin.com/in/mohaned-dewedar) · [Twitter](https://twitter.com/thecherryo) · [Email](mailto:m.dewedar97@gmail.com)

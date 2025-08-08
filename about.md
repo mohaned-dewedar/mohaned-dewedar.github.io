@@ -4,6 +4,10 @@ title: About
 ---
 {% include nav.html %}
 
+<div style="text-align: center;">
+  <img src="/assets/img/lifting_trophy_vegas.jpg" alt="Celebrating Vegas" style=" border-radius: 8px;">
+</div>
+
 
 # About Me
 
