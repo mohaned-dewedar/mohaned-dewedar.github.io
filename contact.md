@@ -10,7 +10,7 @@ title: Contact
 - 📧 Email: [m.dewedar97@gmail.com](mailto:m.dewedar97@gmail.com)
 - 🎓 Edu Email: [mdewedar3@gatech.edu](mailto:mdewedar3@gatech.edu)
 - 🐙 GitHub: [github.com/mohaned-dewedar](https://github.com/mohaned-dewedar)
-- 💼 LinkedIn: [linkedin.com/in/mohaned-dewdar](https://linkedin.com/in/mohaned-dewdar)
+- 💼 LinkedIn: [linkedin.com/in/mohaned-dewdar](https://linkedin.com/in/mohaned-dewedar)
 - 🐦 Twitter: [@thecherryo](https://twitter.com/thecherryo)
 - 🎮 Twitch: [twitch.tv/thecherryo](https://twitch.tv/thecherryo)
 

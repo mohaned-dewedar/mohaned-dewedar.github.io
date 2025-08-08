@@ -4,7 +4,7 @@
 
 
 - name: CherryBott — Twitch x LLM Smite Bot
-  description: CherryBott is a Twitch chatbot powered by local LLMs (via Ollama) that answers chat messages with fun and helpful responses. Designed for Smite2-specific Q&A and Twitch gaming interaction. 🚧 This is a work-in-progress (WIP).
+  description: CherryBott is a Twitch chatbot powered by local LLMs that answers chat messages and allows easy trivia Q/A. Designed for Smite2-specific Q&A and Twitch gaming interaction. 🚧 This is a work-in-progress (WIP).
   tech: ["Python", "LLM", "Twitch API", "Ollama", "AsyncIO"]
   repo: https://github.com/mohaned-dewedar/my-twitch-bot
   demo:
