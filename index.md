@@ -18,19 +18,22 @@ I build machine learning systems with real-world impact — and when I’m not s
 <!-- Career Timeline -->
 <h2 class="section-title">Career Timeline</h2>
 <div class="timeline">
-
   {% for item in site.data.timeline %}
     <div class="timeline-item">
       <div class="timeline-dot"></div>
-      <div class="card">
-        <div class="timeline-date">{{ item.date }}</div>
-        <div class="timeline-label">{{ item.label }}</div>
+
+      <div class="timeline-card card card--compact">
+        {% if item.img %}
+          <img class="timeline-img" src="{{ item.img | relative_url }}" alt="{{ item.label }}">
+        {% endif %}
+        <div class="timeline-text">
+          <div class="timeline-date">{{ item.date }}</div>
+          <div class="timeline-label">{{ item.label }}</div>
+        </div>
       </div>
     </div>
   {% endfor %}
-
 </div>
-
 
 ## Featured Projects
 <div class="grid">

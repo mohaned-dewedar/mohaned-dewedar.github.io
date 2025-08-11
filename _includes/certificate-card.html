@@ -1,7 +1,14 @@
-<div class="card">
-  <h3>{{ include.cert.name }}</h3>
-  <p><strong>{{ include.cert.issuer }}</strong></p>
-  {% if include.cert.link %}
-    <p><a href="{{ include.cert.link }}" target="_blank">View Certificate</a></p>
+<div class="card card--compact certificate-card">
+  {% if include.cert.img %}
+    <img class="logo-img" src="{{ include.cert.img | relative_url }}" alt="{{ include.cert.issuer }} logo">
   {% endif %}
+
+  <div class="certificate-text">
+    <h3 class="certificate-name">{{ include.cert.name }}</h3>
+    <p class="certificate-issuer"><strong>{{ include.cert.issuer }}</strong></p>
+
+    {% if include.cert.link %}
+      <a class="link-inline" href="{{ include.cert.link }}" target="_blank" rel="noopener">View certificate</a>
+    {% endif %}
+  </div>
 </div>

@@ -4,6 +4,7 @@
   end: "present"
   location: "Remote (Chicago, IL)"
   tech: ["ServiceNow", "Windows", "Networking", "SOPs", "Ticketing"]
+  img: /assets/img/k2.png
   bullets:
     - "Resolve hardware, software, and network issues for enterprise users with a focus on first-call resolution."
     - "Own ticket triage and escalation workflows; document clear, reproducible fixes."
@@ -14,6 +15,7 @@
   end: "2025-05"
   location: "Cairo · Remote"
   tech: ["Python", "Transformers", "BERT", "YOLO", "FastAPI", "AWS ECS", "Lambda", "SQS", "Power BI", "SQL", "Pandas"]
+  img: /assets/img/flairstech.png
   bullets:
     - "Digitized 50K+ pages/month with a YOLO+SVM pipeline—about 95% field accuracy and ~70 hours/month saved."
     - "Fine-tuned a multilingual BERT model for insurance form triage; cut manual classification by ~60%."
@@ -29,6 +31,7 @@
   end: "2023-05"
   location: "Cairo"
   tech: ["Excel", "Power BI", "SQL"]
+  img: /assets/img/dina-pharmacy.png
   bullets:
     - "Built Excel-based inventory alerts that reduced stockouts by ~20%."
     - "Unified multi-source sales/inventory data to cut reporting errors and streamline restocking."
@@ -40,6 +43,7 @@
   end: "2025-01"
   location: "Atlanta, GA"
   tech: ["Power BI", "Excel", "Game analytics", "Scouting"]
+  img: /assets/img/hirez-studios.jpg
   bullets:
     - "Competed at a professional level for a decade, including 2× World Championship wins."
     - "Built scouting and performance dashboards to analyze opponents and visualize win/loss conditions."

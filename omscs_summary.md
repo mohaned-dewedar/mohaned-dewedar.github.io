@@ -85,8 +85,4 @@
 
 ---
 
-## 💡 To-Do
 
-- Add these projects to `projects.yml`
-- Create a dedicated `/omscs/` page on your portfolio
-- Use this file to build detailed views later

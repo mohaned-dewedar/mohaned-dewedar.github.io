@@ -8,17 +8,32 @@ title: Esports
 
 I spent a decade competing and analyzing at a high level, including two World Championship wins—one as a player, and one as a coach. It’s been a wild ride full of strategy, growth, and some unforgettable moments. I only wish I could do it all over again.
 
+<div class="esports-hero">
+  <img src="/assets/img/swcx.jpg" alt="On stage at Smite World Championship">
+</div>
+
+
+
+
 ## Highlights
-<ul>
-  <li>🏆 Won Mid-Season Invitational as a player (2019)</li>
-  <li>🏆 Won Smite World Championship as a coach (Jan 2024)</li>
-  <li>🏆 Won Smite World Championship as a player (Jan 2025)</li>
-</ul>
+<div class="highlights">
+  <div class="highlight">
+    🏆 <strong>Mid-Season Invitational Winner</strong> — Player (2019)
+  </div>
+  <div class="highlight">
+    🏆 <strong>Smite World Championship Winner</strong> — Coach (Jan 2024)
+  </div>
+  <div class="highlight">
+    🏆 <strong>Smite World Championship Winner</strong> — Player (Jan 2025)
+  </div>
+</div>
+
 
 ## Analytics Work as a Coach
 
-I built scouting and performance dashboards in **Power BI** and **Excel** to break down matchups, spot trends, and optimize team strategy. These tools helped guide preparation, draft decisions, and mid-season adjustments throughout the years. I wish the Smite API was more accessible but collecting all this data from scratch stopped me from creating crazy ML solutions. Just some simple W/L predictors and win probability models based on team stats and compositions.
+I  developed scouting and performance dashboards in **Power BI** and **Excel** to analyze matchups, track trends, and refine team strategy.
 
+These tools informed draft decisions, guided mid-season adjustments, and contributed to championship-level preparation. While the Smite API’s limitations prevented deeper machine learning applications, I built win–loss predictors and win probability models from manually collected data.
 
 ## Twitch
 
