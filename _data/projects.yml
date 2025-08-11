@@ -30,6 +30,19 @@
   priority: 1
   image: /assets/img/sift.png
 
+- name: Rule Generator — Natural Language to JSON Engine
+  description: A Streamlit app that converts plain English business rules into structured JSON, using GPT-4 and a MongoDB backend. It's a proof of concept for an automated rule creation system.
+  tech: ["Python", "Streamlit", "GPT-4", "MongoDB", "Pydantic"]
+  repo: https://github.com/mohaned-dewedar/output_parsing.git
+  demo: 
+  education: None
+  course: None
+  category: Software
+  featured: true
+  show_in_edu: false
+  priority: 2
+  image: 
+
 
 - name: Personal Website
   description: My personal website built with Jekyll, showcasing my projects, blog posts, and resume.
