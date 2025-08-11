@@ -344,7 +344,7 @@
 
 - name: Delivery UAV Robot
   description: Led development of a UAV robot capable of identifying indoor environments using UV light, sensors, and machine vision. Navigates environments autonomously by line tracking and object juking and complete human avoidance.
-  tech: ["UAV", "Sensors", "Machine Vision","Copelia Sim"]
+  tech: ["UAV", "Sensors", "Machine Vision","CoppeliaSim"]
   education: "Ain Shams University"
   course: "Mechatronics Project"
   category: "Engineering"

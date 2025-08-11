@@ -19,6 +19,10 @@ title: Experience
     </em>{% if job.location %} · {{ job.location }}{% endif %}</p>
 
     {% if job.bullets %}
+    {% if job.summary %}
+    <p class="experience-summary"><strong>Impact:</strong> {{ job.summary }}</p>
+    {% endif %}
+
     <ul>
       {% for b in job.bullets %}
         <li>{{ b }}</li>

@@ -5,6 +5,7 @@
   location: "Remote (Chicago, IL)"
   tech: ["ServiceNow", "Windows", "Networking", "SOPs", "Ticketing"]
   img: /assets/img/k2.png
+  summary: Provide enterprise-level IT support, resolving technical issues quickly to maintain smooth business operations.
   bullets:
     - "Resolve hardware, software, and network issues for enterprise users with a focus on first-call resolution."
     - "Own ticket triage and escalation workflows; document clear, reproducible fixes."
@@ -15,6 +16,7 @@
   end: "2025-05"
   location: "Cairo · Remote"
   tech: ["Python", "Transformers", "BERT", "YOLO", "FastAPI", "AWS ECS", "Lambda", "SQS", "Power BI", "SQL", "Pandas"]
+  summary: Delivered LLM and computer vision products that reduced manual work and scaled to thousands of users.
   img: /assets/img/flairstech.png
   bullets:
     - "Digitized 50K+ pages/month with a YOLO+SVM pipeline—about 95% field accuracy and ~70 hours/month saved."
@@ -32,6 +34,7 @@
   location: "Cairo"
   tech: ["Excel", "Power BI", "SQL"]
   img: /assets/img/dina-pharmacy.png
+  summary: Optimized inventory and sales reporting processes, reducing stockouts and data errors.
   bullets:
     - "Built Excel-based inventory alerts that reduced stockouts by ~20%."
     - "Unified multi-source sales/inventory data to cut reporting errors and streamline restocking."
@@ -44,8 +47,8 @@
   location: "Atlanta, GA"
   tech: ["Power BI", "Excel", "Game analytics", "Scouting"]
   img: /assets/img/hirez-studios.jpg
+  summary: Competed professionally in esports, winning two world championships and developing data-driven scouting tools.
   bullets:
     - "Competed at a professional level for a decade, including 2× World Championship wins."
     - "Built scouting and performance dashboards to analyze opponents and visualize win/loss conditions."
     - "Streamed, scrimmed, and reviewed VODs; collaborated with teammates on strategy and preparation."
-

@@ -2,6 +2,8 @@
 layout: default
 title: Home
 ---
+
+
 {% include nav.html %}
 
 <div style="text-align: center; margin: 2rem 0;">
@@ -12,7 +14,7 @@ title: Home
 # Moe Dewedar
 **AI Engineer · Masters Student**
 
-I build machine learning systems with real-world impact — and when I’m not shipping models, I’m gaming competetively and streaming.  
+I build machine learning systems with real-world impact — and when I’m not shipping models, I’m gaming competitively and streaming.  
 [GitHub](https://github.com/mohaned-dewedar) · [LinkedIn](https://linkedin.com/in/mohaned-dewedar) · [Twitter](https://twitter.com/thecherryo) · [Email](mailto:m.dewedar97@gmail.com)
 
 <!-- Career Timeline -->
@@ -43,5 +45,3 @@ I build machine learning systems with real-world impact — and when I’m not s
   {% endfor %}
 </div>
 
-## Portfolio not Final
-*This portfolio is a work in progress. More projects , demos and details will be added soon!*

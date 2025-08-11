@@ -1,8 +1,14 @@
 title: Moe Dewedar
-description: "OMSCS @ Georgia Tech · Interests: AI, ML, Data Science, Software Engineering"
+description: Engineer building AI-driven solutions with LLMs, computer vision, and AWS — from prototype to production.
+logo: /assets/og-image.jpg    # this is used as the og:image fallback
+image: /assets/og-image.jpg   # some plugins look for this too
+
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
 url: https://mohaned-dewedar.github.io
+twitter:
+  username: thecherryo
+  card: summary_large_image
