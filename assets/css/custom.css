@@ -285,6 +285,68 @@ body {
   box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
 }
 
+.search-suggestions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  margin-top: 0.25rem;
+  box-shadow: 0 4px 12px var(--shadow-color);
+  z-index: 10;
+  max-height: 200px;
+  overflow-y: auto;
+  display: none;
+}
+
+.search-suggestions.show {
+  display: block;
+}
+
+.suggestion-item {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  border-bottom: 1px solid var(--border-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.suggestion-item:last-child {
+  border-bottom: none;
+}
+
+.suggestion-item:hover {
+  background: var(--highlight-bg);
+}
+
+.suggestion-text {
+  color: var(--text-color);
+}
+
+.suggestion-count {
+  color: var(--text-secondary);
+  font-size: 0.8rem;
+  background: var(--tag-bg);
+  padding: 0.2rem 0.5rem;
+  border-radius: 1rem;
+}
+
+.search-stats {
+  margin: 1rem 0;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+  font-style: italic;
+  display: none;
+}
+
+.search-stats.show {
+  display: block;
+}
+
 .filter-buttons {
   display: flex;
   flex-wrap: wrap;

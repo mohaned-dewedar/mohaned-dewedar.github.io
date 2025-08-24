@@ -6,6 +6,7 @@
 - name: Smite Draft Tool
   description: Real-time multiplayer draft tool for Smite Ranked Conquest that simulates the game's pick/ban phase. Features React + Socket.IO for real-time sync, shareable room codes, live chat, and mobile responsive design with complete god database.
   tech: ["React", "Vite", "Tailwind CSS", "Socket.IO", "Node.js", "Express"]
+  tags: ["web-dev", "realtime", "multiplayer", "gaming", "frontend", "backend", "websockets"]
   repo: https://github.com/mohaned-dewedar/draft
   demo: https://smite-draft.vercel.app
   education: None
@@ -19,6 +20,7 @@
 - name: Smite 2 Chatbot
   description: SMITE 2 chatbot that combines web scraping, LLM integration, and vector search to provide intelligent answers about game data. Scrapes the SMITE 2 wiki, processes data through LLMs, and provides conversational interface with ChromaDB-based semantic search.
   tech: ["Python", "Streamlit", "ChromaDB", "Ollama", "Vector Search", "Web Scraping"]
+  tags: ["ai", "llm", "chatbot", "rag", "vector-search", "nlp", "data-scraping", "gaming"]
   repo: https://github.com/mohaned-dewedar/smite-chatbot
   demo:
   education: None
@@ -32,6 +34,7 @@
 - name: CherryBott — Twitch x LLM Smite Bot
   description: CherryBott is a Twitch chatbot powered by local LLMs that answers chat messages and allows easy trivia Q/A. Designed for Smite2-specific Q&A and Twitch gaming interaction. 🚧 This is a work-in-progress (WIP).
   tech: ["Python", "LLM", "Twitch API", "Ollama", "Websockets","OOP"]
+  tags: ["ai", "llm", "chatbot", "twitch", "streaming", "gaming", "realtime", "api"]
   repo: https://github.com/mohaned-dewedar/my-twitch-bot
   demo:
   education: None
@@ -46,6 +49,7 @@
 - name: Sift Cropper — Semi-Automated Image Annotation Tool
   description: Sift Cropper applies SIFT-based image processing to automatically crop gameplay maps from videos or images, with a user review interface for annotation. Combines computer vision and web UI. 🚧 This is a work-in-progress (WIP).
   tech: ["Python", "SIFT", "Flask", "React", "OpenCV"]
+  tags: ["computer-vision", "image-processing", "automation", "annotation", "web-dev", "ml"]
   repo: https://github.com/mohaned-dewedar/template-labeler
   demo:
   education: None
@@ -59,6 +63,7 @@
 - name: Rule Generator — Natural Language to JSON Engine
   description: A Streamlit app that converts plain English business rules into structured JSON, using GPT-4 and a MongoDB backend. It's a proof of concept for an automated rule creation system.
   tech: ["Python", "Streamlit", "GPT-4", "MongoDB", "Pydantic"]
+  tags: ["ai", "nlp", "automation", "data-processing", "web-app", "json"]
   repo: https://github.com/mohaned-dewedar/output_parsing.git
   demo: 
   education: None
@@ -73,6 +78,7 @@
 - name: Personal Website
   description: My personal website built with Jekyll, showcasing my projects, blog posts, and resume.
   tech: ["Jekyll", "HTML", "CSS", "JavaScript"]
+  tags: ["web-dev", "portfolio", "static-site", "frontend", "responsive"]
   repo: https://github.com/mohaned-dewedar/mohaned-dewedar.github.io
   demo: 
   education: None
@@ -93,6 +99,7 @@
 - name: Martingale Strategy
   description: Simulate American roulette to study statistical outcomes and test the martingale betting strategy.
   tech: ["Python", "Simulation", "Matplotlib"]
+  tags: ["simulation", "statistics", "data-analysis", "visualization", "probability"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
   category: "Software"
@@ -104,6 +111,7 @@
 - name: Portfolio Optimization
   description: Built a portfolio optimizer using historical financial data. Modeled constraints and risk-return tradeoffs.
   tech: ["Python", "Pandas", "Scipy", "Finance"]
+  tags: ["optimization", "finance", "data-analysis", "portfolio", "risk-management"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
   category: "Software"
@@ -115,6 +123,7 @@
 - name: Assess Learners
   description: Implemented and compared decision trees, bagged learners, and ensemble methods to analyze learning behavior and overfitting.
   tech: ["Python", "Ensemble Methods", "Bagging", "Random Forest"]
+  tags: ["ml", "ensemble-methods", "decision-trees", "overfitting", "model-comparison"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
   category: "Software"
@@ -126,6 +135,7 @@
 - name: Defeat Learners
   description: Designed datasets that expose the weaknesses of various machine learning algorithms by favoring specific learners.
   tech: ["Python", "ML", "Data Generation"]
+  tags: ["ml", "data-generation", "adversarial", "algorithm-analysis", "model-evaluation"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
   category: "Software"
@@ -137,6 +147,7 @@
 - name: Market Simulator
   description: Created a custom simulator that processes trade orders and computes portfolio performance over time.
   tech: ["Python", "Pandas", "Backtesting"]
+  tags: ["simulation", "finance", "trading", "backtesting", "performance-analysis"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
   category: "Software"
@@ -149,6 +160,7 @@
 - name: Indicator Evaluation
   description: Evaluated technical indicators and used a 'theoretically optimal strategy' to simulate trading performance using future data.
   tech: ["Python", "Trading", "Indicators", "SMA", "BBP"]
+  tags: ["finance", "trading", "indicators", "strategy", "technical-analysis"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
   category: "Software"
@@ -160,6 +172,7 @@
 - name: Q-Learning Robot
   description: Implemented Q-learning to train a robot to navigate a dynamic environment with exploration/exploitation balance.
   tech: ["Python", "Reinforcement Learning", "Q-Learning"]
+  tags: ["ml", "reinforcement-learning", "q-learning", "robotics", "autonomous-navigation"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
   category: "Software"
@@ -171,6 +184,7 @@
 - name: Strategy Evaluation
   description: Compared rule-based vs random forest strategies for trading using technical indicators.
   tech: ["Python", "Trading", "Random Forest", "Indicators"]
+  tags: ["ml", "finance", "trading", "random-forest", "strategy", "model-comparison"]
   education: "Georgia Institute of Technology"
   course: "ML4T"
   category: "Software"
@@ -182,6 +196,7 @@
 - name: Hopscotch – Kalman Filters
   description: Used Kalman Filters to navigate a damaged spaceship by estimating asteroid positions from noisy data.
   tech: ["Python", "Kalman Filter", "Estimation"]
+  tags: ["robotics", "kalman-filter", "estimation", "navigation", "state-estimation"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
   category: "Robotics"
@@ -193,6 +208,7 @@
 - name: Solar System – Particle Filters
   description: Used particle filters to localize a spacecraft using planetary gravitational readings in a simulated solar system.
   tech: ["Python", "Particle Filters", "Localization"]
+  tags: ["robotics", "particle-filter", "localization", "simulation", "bayesian"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
   category: "Robotics"
@@ -204,6 +220,7 @@
 - name: Drone Control – PID Controller
   description: Implemented a PID controller to stabilize a drone in 3D space for infrastructure inspection tasks.
   tech: ["Python", "PID", "Control Systems"]
+  tags: ["robotics", "control-systems", "pid", "drone", "stabilization"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
   category: "Robotics"
@@ -215,6 +232,7 @@
 - name: Warehouse – A* Search
   description: Developed a warehouse robot routing algorithm using A* search to optimize item pickup and delivery.
   tech: ["Python", "A*", "Pathfinding"]
+  tags: ["robotics", "pathfinding", "a-star", "optimization", "automation"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
   category: "Robotics"
@@ -226,6 +244,7 @@
 - name: Indiana Drones – SLAM
   description: Built SLAM system to navigate a drone through a jungle using noisy sensor data.
   tech: ["Python", "SLAM", "Mapping", "Robotics"]
+  tags: ["robotics", "slam", "mapping", "navigation", "sensor-fusion"]
   education: "Georgia Institute of Technology"
   course: "AI4R"
   category: "Robotics"
@@ -237,6 +256,7 @@
 - name: Supervised Learning – Imbalanced Dataset
   description: Trained SVM, KNN, and Random Forest on imbalanced data, focusing on analysis of the models and tradeoffs.
   tech: ["Python", "Scikit-learn", "SVM", "KNN", "Random Forest"]
+  tags: ["ml", "supervised-learning", "imbalanced-data", "svm", "knn", "random-forest"]
   education: "Georgia Institute of Technology"
   category: "Software"
   priority: 3
@@ -248,6 +268,7 @@
 - name: Randomized Optimization Algorithms
   description: Applied RHC, SA, GA, and MIMIC to solve discrete optimization problems and tune neural network weights.
   tech: ["Python", "Optimization", "RHC", "SA", "GA", "MIMIC"]
+  tags: ["ml", "optimization", "genetic-algorithm", "simulated-annealing", "neural-networks"]
   category: "Software"
   priority: 2
   education: "Georgia Institute of Technology"
@@ -259,6 +280,7 @@
 - name: Unsupervised Learning & Dimensionality Reduction
   description: Used PCA, ICA, ISOMAP, and clustering to reduce dimensions and enhance neural network performance.
   tech: ["Python", "PCA", "ICA", "ISOMAP", "KMeans"]
+  tags: ["ml", "unsupervised-learning", "dimensionality-reduction", "clustering", "pca"]
   education: "Georgia Institute of Technology"
   course: "Machine Learning"
   category: "Software"
@@ -271,6 +293,7 @@
 - name: Reinforcement Learning on MDPs
   description: Implemented Value Iteration, Policy Iteration, and Q-Learning to solve Blackjack and Cartpole balancing.
   tech: ["Python", "RL", "MDP", "Q-Learning"]
+  tags: ["ml", "reinforcement-learning", "mdp", "q-learning", "policy-iteration"]
   education: "Georgia Institute of Technology"
   course: "Machine Learning"
   category: "Software"
@@ -282,6 +305,7 @@
 - name: Neural Network from Scratch
   description: Built a complete neural network from scratch in NumPy and trained it on MNIST.
   tech: ["NumPy", "Neural Networks", "SGD"]
+  tags: ["ml", "deep-learning", "neural-networks", "from-scratch", "mnist"]
   education: "Georgia Institute of Technology"
   course: "Deep Learning"
   category: "Software"
@@ -293,6 +317,7 @@
 - name: CNNs from Scratch & in PyTorch
   description: Built CNN layers manually using NumPy, then migrated to PyTorch for classification tasks using custom loss functions.
   tech: ["NumPy", "PyTorch", "CNN", "Deep Learning"]
+  tags: ["ml", "deep-learning", "cnn", "computer-vision", "pytorch", "from-scratch"]
   education: "Georgia Institute of Technology"
   course: "Deep Learning"
   category: "Software"
@@ -304,6 +329,7 @@
 - name: Transformers for Sequence Modeling
   description: Implemented Transformer and Seq2Seq models for language translation using attention mechanisms.
   tech: ["PyTorch", "Transformers", "Seq2Seq", "NLP"]
+  tags: ["ml", "deep-learning", "transformers", "nlp", "attention", "seq2seq"]
   education: "Georgia Institute of Technology"
   course: "Deep Learning"
   category: "Software"
@@ -316,6 +342,7 @@
 - name: Audio Classification on Edge Devices
   description: Compared CNNs and Transformers for classifying audio signals on edge devices using knowledge distillation.
   tech: ["CNN", "Transformers", "Edge AI", "Audio", "CLAP", "YAMNet"]
+  tags: ["ml", "deep-learning", "audio", "edge-computing", "knowledge-distillation", "cnn", "transformers"]
   education: "Georgia Institute of Technology"
   course: "Deep Learning"
   category: "Software"
@@ -331,6 +358,7 @@
 - name: School Exam System (Java GUI)
   description: Developed a live exam platform in Java with a GUI, supporting multiple question formats and automatic correction.
   tech: ["Java", "OOP"]
+  tags: ["java", "gui", "oop", "education", "automation"]
   education: "Ain Shams University"
   course: "Advanced Programming"
   category: "Software"
@@ -344,6 +372,7 @@
 - name: Mechanization of Handmade Kiln Looms
   description: Graduation project aimed at automating the process of handwoven kilns through custom-built machinery and software.
   tech: ["Mechanical Design", "Embedded Systems", "Automation"]
+  tags: ["mechanical-engineering", "embedded-systems", "automation", "manufacturing", "iot"]
   education: "Ain Shams University"
   category: "Engineering"
   priority: 3
@@ -358,6 +387,7 @@
 - name: Machine Vision Controlled Robot Arm
   description: Developed a 6DoF robotic arm controlled via machine vision and motion planning; assembled using 3D-printed parts.
   tech: ["Machine Vision", "Robotics", "Motion Planning"]
+  tags: ["robotics", "computer-vision", "6dof", "motion-planning", "3d-printing"]
   education: "Ain Shams University"
   course: "Graduation Project"
   category: "Robotics"
@@ -371,6 +401,7 @@
 - name: Delivery UAV Robot
   description: Led development of a UAV robot capable of identifying indoor environments using UV light, sensors, and machine vision. Navigates environments autonomously by line tracking and object juking and complete human avoidance.
   tech: ["UAV", "Sensors", "Machine Vision","CoppeliaSim"]
+  tags: ["robotics", "uav", "autonomous-navigation", "computer-vision", "sensors", "simulation"]
   education: "Ain Shams University"
   course: "Mechatronics Project"
   category: "Engineering"
@@ -384,6 +415,7 @@
 - name: 6DoF Manipulator Modeling and Control
   description: Modeled a 6DoF robotic manipulator in Gazebo using URDF; used MoveIt and ROS for trajectory planning and control.
   tech: ["ROS", "Gazebo", "MoveIt", "URDF","C++"]
+  tags: ["robotics", "ros", "6dof", "gazebo", "moveit", "trajectory-planning"]
   education: "Ain Shams University"
   course: "Robotics Project"
   category: "Robotics"
@@ -397,6 +429,7 @@
 - name: Machine Vision Classifier (COCO Dataset)
   description: Built an image classifier using CNN, KNN, and SVM on the COCO dataset; compared algorithms for effectiveness.
   tech: ["Computer Vision", "CNN", "KNN", "SVM"]
+  tags: ["ml", "computer-vision", "cnn", "svm", "knn", "image-classification"]
   education: "Ain Shams University"
   course: "Computer Vision Project"
   category: "Software"
@@ -409,6 +442,7 @@
 - name: Production Line Integration
   description: Designed and implemented a production line using conveyors, sensors, and motors for automatic assembly/disassembly.
   tech: ["Automation", "Mechatronics", "Sensors", "Stepper Motors"]
+  tags: ["automation", "mechatronics", "manufacturing", "sensors", "control-systems"]
   education: "Ain Shams University"
   course: "Design of Mechatronic Systems"
   category: "Engineering"
@@ -422,6 +456,7 @@
 - name: Automatic Sensing Wheelchair
   description: Built a smart wheelchair that detects obstacles and uses vibration feedback on handles to alert the user.
   tech: ["Embedded Systems", "Ultrasonic Sensors", "Assistive Tech"]
+  tags: ["embedded-systems", "sensors", "assistive-technology", "obstacle-detection", "accessibility"]
   education: "Ain Shams University"
   course: "Embedded Systems Project"
   category: "Engineering"
