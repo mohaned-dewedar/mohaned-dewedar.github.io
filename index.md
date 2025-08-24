@@ -37,6 +37,22 @@ I build machine learning systems with real-world impact — and when I’m not s
   {% endfor %}
 </div>
 
+## Skills & Technologies
+<div class="skills-section">
+  <div class="skills-grid">
+    {% for skill_group in site.data.skills %}
+      <div class="skill-category">
+        <h3>{{ skill_group.category }}</h3>
+        <div class="skill-tags">
+          {% for skill in skill_group.skills %}
+            <span class="skill-tag">{{ skill }}</span>
+          {% endfor %}
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
 ## Featured Projects
 <div class="grid">
   {% assign featured = site.data.projects | where: "featured", true %}

@@ -7,23 +7,35 @@ title: Projects
 
 # Projects
 
-{% assign filtered_projects = site.data.projects | sort: "priority" %}
-{% assign custom_order = "Software,Robotics,Engineering" | split: "," %}
-
-{% for cat in custom_order %}
-  <h2 class="text-xl font-bold mt-8 mb-2">{{ cat }}</h2>
-  <div class="grid">
-    {% assign projects_in_category = filtered_projects | where: "category", cat %}
-    {% for project in projects_in_category %}
-      {% if project.featured %}
-        {% include project-card.html project=project %}
-      {% endif %}
-    {% endfor %}
+<div class="project-controls">
+  <div class="search-container">
+    <input type="text" id="projectSearch" class="search-input" placeholder="Search projects by name, technology, or description...">
   </div>
-{% endfor %}
+  
+  <div class="filter-buttons">
+    <span class="filter-label">Filter by:</span>
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="software">Software</button>
+    <button class="filter-btn" data-filter="robotics">Robotics</button>
+    <button class="filter-btn" data-filter="engineering">Engineering</button>
+    <button class="filter-btn" data-filter="python">Python</button>
+    <button class="filter-btn" data-filter="react">React</button>
+    <button class="filter-btn" data-filter="llm">LLM</button>
+    <button class="filter-btn" data-filter="ml">ML</button>
+  </div>
+</div>
 
----
+<div class="project-grid grid">
+  {% assign all_projects = site.data.projects | sort: "priority" %}
+  {% for project in all_projects %}
+    {% if project.featured %}
+      <div class="project-card" data-category="{{ project.category | downcase }}" data-tech="{{ project.tech | join: ' ' | downcase }}">
+        {% include project-card.html project=project %}
+      </div>
+    {% endif %}
+  {% endfor %}
+</div>
 
-## Work In Progress
-
-Embedding projects here and including demos, links, and papers.
+<div class="no-results">
+  <p>No projects found matching your criteria. Try adjusting your search or filters.</p>
+</div>

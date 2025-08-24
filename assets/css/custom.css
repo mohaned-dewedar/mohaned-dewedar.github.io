@@ -134,24 +134,270 @@
 .cert-cta:hover { background: #dbeafe; transform: translateY(-1px); box-shadow: 0 2px 6px rgba(0,0,0,.06); }
 
 /* ========= DARK MODE ========= */
-@media (prefers-color-scheme: dark) {
-  .card { border-color: #444; background: #1e1e1e; box-shadow: 0 2px 5px rgba(255,255,255,.05); }
-  .tag { border-color: #666; }
-  .highlight { background: #1f2937; }
-  .timeline::before { background: #444; }
-  .timeline-dot { background: #90caf9; }
-  .timeline-date { color: #ccc; }
-  .timeline-label { color: #aaa; }
-  .logo-img { border-color: #444; background: #111; }
-  .certificate-issuer { color: #cbd5e1; }
-  .cert-cta { border-color: #60a5fa; color: #93c5fd; background: #0b1220; }
-  .cert-cta:hover { background: #0f172a; }
+/* Theme Toggle */
+.theme-toggle {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+  transition: all 0.3s ease;
+  z-index: 1000;
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.theme-toggle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px var(--shadow-color);
+}
+
+/* CSS Variables for themes */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #374151;
+  --text-secondary: #6b7280;
+  --card-bg: #ffffff;
+  --border-color: #e5e7eb;
+  --shadow-color: rgba(0,0,0,0.05);
+  --accent-color: #3b82f6;
+  --tag-bg: #f3f4f6;
+  --tag-border: #d1d5db;
+  --highlight-bg: #f9fafb;
+  --timeline-line: #e5e7eb;
+}
+
+[data-theme="dark"] {
+  --bg-color: #111827;
+  --text-color: #f9fafb;
+  --text-secondary: #d1d5db;
+  --card-bg: #1f2937;
+  --border-color: #374151;
+  --shadow-color: rgba(0,0,0,0.3);
+  --accent-color: #60a5fa;
+  --tag-bg: #374151;
+  --tag-border: #4b5563;
+  --highlight-bg: #374151;
+  --timeline-line: #4b5563;
+}
+
+/* Apply variables */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.card {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.tag {
+  background: var(--tag-bg);
+  border-color: var(--tag-border);
+  color: var(--text-color);
+}
+
+.highlight {
+  background: var(--highlight-bg);
+  color: var(--text-color);
+}
+
+.timeline::before {
+  background: var(--timeline-line);
+}
+
+.timeline-dot {
+  background: var(--bg-color);
+  border-color: var(--accent-color);
+}
+
+.timeline-date {
+  color: var(--text-secondary);
+}
+
+.timeline-label {
+  color: var(--text-color);
+}
+
+.logo-img {
+  border-color: var(--border-color);
+  background: var(--card-bg);
+}
+
+.certificate-issuer {
+  color: var(--text-secondary);
+}
+
+.cert-cta {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+  background: var(--card-bg);
+}
+
+.cert-cta:hover {
+  background: var(--highlight-bg);
 }
 
 .experience-summary {
-  border-left: 4px solid #7dd3fc; /* same accent as your tags */
+  border-left: 4px solid #7dd3fc;
   padding-left: 12px;
   margin: 0.5rem 0 1rem;
   font-style: italic;
-  background-color: rgba(125, 211, 252, 0.05); /* super light tint */
+  background-color: rgba(125, 211, 252, 0.05);
+}
+
+/* ========= PROJECT FILTERING & SEARCH ========= */
+.project-controls {
+  margin: 2rem 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid var(--border-color);
+  border-radius: 0.5rem;
+  background: var(--card-bg);
+  color: var(--text-color);
+  font-size: 1rem;
+  transition: border-color 0.2s ease;
+}
+
+.search-input:focus {
+  outline: none;
+  border-color: var(--accent-color);
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.1);
+}
+
+.filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.filter-label {
+  font-weight: 600;
+  color: var(--text-color);
+  margin-right: 0.5rem;
+}
+
+.filter-btn {
+  padding: 0.4rem 1rem;
+  border: 1px solid var(--border-color);
+  background: var(--card-bg);
+  color: var(--text-color);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.filter-btn:hover {
+  border-color: var(--accent-color);
+  color: var(--accent-color);
+}
+
+.filter-btn.active {
+  background: var(--accent-color);
+  border-color: var(--accent-color);
+  color: white;
+}
+
+.project-grid {
+  transition: opacity 0.3s ease;
+}
+
+.project-card.hidden {
+  display: none;
+}
+
+.no-results {
+  text-align: center;
+  color: var(--text-secondary);
+  font-style: italic;
+  padding: 2rem;
+  display: none;
+}
+
+.no-results.show {
+  display: block;
+}
+
+/* ========= SKILLS SHOWCASE ========= */
+.skills-section {
+  margin: 3rem 0;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.skill-category {
+  background: var(--card-bg);
+  border: 1px solid var(--border-color);
+  border-radius: 0.75rem;
+  padding: 1.5rem;
+  box-shadow: 0 2px 8px var(--shadow-color);
+}
+
+.skill-category h3 {
+  margin: 0 0 1rem;
+  color: var(--accent-color);
+  font-size: 1.1rem;
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.skill-tag {
+  padding: 0.3rem 0.8rem;
+  background: var(--tag-bg);
+  border: 1px solid var(--tag-border);
+  border-radius: 1rem;
+  font-size: 0.85rem;
+  color: var(--text-color);
+  transition: transform 0.2s ease;
+}
+
+.skill-tag:hover {
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .project-controls {
+    gap: 0.75rem;
+  }
+  
+  .filter-buttons {
+    justify-content: center;
+  }
+  
+  .skills-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
 }

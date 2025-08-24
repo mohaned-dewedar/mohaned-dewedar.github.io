@@ -1,0 +1,72 @@
+- category: "Languages"
+  skills:
+    - "Python"
+    - "JavaScript"
+    - "C++"
+    - "Java"
+    - "SQL"
+    - "HTML/CSS"
+
+- category: "GenAI"
+  skills:
+    - "Claude"
+    - "GPT-4"
+    - "RAG"
+    - "LangChain"
+    - "Agents"
+    - "Whisper"
+    - "OpenAI"
+    - "Prompt Engineering"
+
+- category: "AI & Machine Learning"
+  skills:
+    - "PyTorch"
+    - "TensorFlow"
+    - "Transformers"
+    - "Computer Vision"
+    - "BERT"
+    - "YOLO"
+    - "OpenCV"
+    - "Scikit-learn"
+    - "Pandas"
+    - "NumPy"
+
+- category: "Cloud & DevOps"
+  skills:
+    - "AWS"
+    - "Docker"
+    - "Lambda"
+    - "ECS"
+    - "SQS"
+    - "S3"
+    - "EC2"
+    - "Git"
+
+- category: "Databases & Storage"
+  skills:
+    - "MongoDB"
+    - "PostgreSQL"
+    - "ChromaDB"
+    - "Qdrant"
+    - "Redis"
+
+- category: "Data & Analytics"
+  skills:
+    - "Power BI"
+    - "Excel"
+    - "Matplotlib"
+    - "Seaborn"
+    - "Data Visualization"
+    - "ETL"
+    - "Statistical Analysis"
+
+- category: "Robotics & Systems"
+  skills:
+    - "ROS"
+    - "Gazebo"
+    - "SLAM"
+    - "Control Systems"
+    - "Arduino"
+    - "Embedded Systems"
+    - "Computer Vision"
+    - "Path Planning"
