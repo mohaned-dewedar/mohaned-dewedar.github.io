@@ -3,6 +3,32 @@
 
 
 
+- name: Smite Draft Tool
+  description: Real-time multiplayer draft tool for Smite Ranked Conquest that simulates the game's pick/ban phase. Features React + Socket.IO for real-time sync, shareable room codes, live chat, and mobile responsive design with complete god database.
+  tech: ["React", "Vite", "Tailwind CSS", "Socket.IO", "Node.js", "Express"]
+  repo: https://github.com/mohaned-dewedar/draft
+  demo: https://smite-draft.vercel.app
+  education: None
+  course: None
+  category: Software
+  featured: true
+  show_in_edu: false
+  priority: 1
+  image: /assets/img/draft.png
+
+- name: Smite 2 Chatbot
+  description: SMITE 2 chatbot that combines web scraping, LLM integration, and vector search to provide intelligent answers about game data. Scrapes the SMITE 2 wiki, processes data through LLMs, and provides conversational interface with ChromaDB-based semantic search.
+  tech: ["Python", "Streamlit", "ChromaDB", "Ollama", "Vector Search", "Web Scraping"]
+  repo: https://github.com/mohaned-dewedar/smite-chatbot
+  demo:
+  education: None
+  course: None
+  category: Software
+  featured: true
+  show_in_edu: false
+  priority: 1
+  image: /assets/img/smite-chat.png
+
 - name: CherryBott — Twitch x LLM Smite Bot
   description: CherryBott is a Twitch chatbot powered by local LLMs that answers chat messages and allows easy trivia Q/A. Designed for Smite2-specific Q&A and Twitch gaming interaction. 🚧 This is a work-in-progress (WIP).
   tech: ["Python", "LLM", "Twitch API", "Ollama", "Websockets","OOP"]
@@ -13,7 +39,7 @@
   category: Software
   featured: true
   show_in_edu: false
-  priority: 1
+  priority: 2
   image: /assets/img/cherrybott.png
 
 
